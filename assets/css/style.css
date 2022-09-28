@@ -1,0 +1,73 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*page index*/
+
+.formulaireAjout
+{
+    
+}
+.row{
+    justify-content: center;
+    width: auto;
+}
+
+
+/* pour tester
+.betatest { border: solid fuchsia 7px;}
+* { border: solid blue 10px; }*/
+
+h1{
+    padding-left: 4rem;
+}
+
+.card
+{
+    
+    height: 15rem;
+    padding: 0;
+    
+}
+.card-title{
+    padding-left: 1rem; 
+}
+
+
+
+H5,p{
+    padding-left: 1rem;
+}
+
+.card-image{
+    /*height: 24vh;*/
+    
+    
+    max-width: 100%;
+    
+
+
+}
+/*page détails*/
+div.position,a.position2
+{
+    margin-left: 10px;
+}
+
+.details
+{
+    margin-bottom: 2rem;
+}
+
+/*page index*/
+@media screen and (max-width: 915px)
+{
+
+    .card{
+        height:auto;
+        width: 400px;
+
+    }
+}
